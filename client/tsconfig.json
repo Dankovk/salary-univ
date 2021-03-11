@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    //    "allowSyntheticDefaultImports": true,
+    //    "baseUrl": "./src",
+    "outDir": "./public/",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "useDefineForClassFields": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es6",
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./type"
+  ],
+  "exclude": [
+    "dist",
+    "public"
+  ]
+}

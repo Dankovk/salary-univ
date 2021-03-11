@@ -1,0 +1,14 @@
+{
+  "name": "@ignore_you/map-of-ukraine-with-d3-js-topojson-geojson",
+  "main": "2d07837fd7adc356@275.js",
+  "version": "275.0.0",
+  "homepage": "https://observablehq.com/@ignore_you/map-of-ukraine-with-d3-js-topojson-geojson",
+  "author": {
+    "name": "Alex",
+    "url": "https://observablehq.com/@ignore_you"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
